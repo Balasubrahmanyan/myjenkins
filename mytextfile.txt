@@ -1,0 +1,11 @@
+    node {
+        stage ('create file'){
+            sh 'touch myfirstJenkins_git.txt'
+        }
+        stage ('Write to the file'){
+            sh 'echo "Hello there! This is my first file created on Git using Jenkins"> myfirstJenkins_git.txt '
+        }
+        stage ('Display the file content'){
+            sh 'cat myfirstJenkins_git.txt'
+        }
+    }
