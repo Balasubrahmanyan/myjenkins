@@ -1,4 +1,1 @@
 # myjenkins
-
-testing
-hello
